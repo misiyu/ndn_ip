@@ -1,0 +1,143 @@
+2019-06-19 19:40:52,578 DEBUG [default] [misiyu@unknown-host] [int GroupSigApi::group_sig(std::__cxx11::string&, const string&, const string&, const string&, const string&, const string&)] [./algorithm/GroupSig.cpp:90] GROUP SIG
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [int GroupSigApi::group_sig(std::__cxx11::string&, const string&, const string&, const string&, const string&, const string&)] [./algorithm/GroupSig.cpp:91] METHOD = bbs04
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [dev::eth::GroupSigMethod dev::eth::get_algo_method_by_string(const string&)] [./devcore/CommonFunc.h:108] get_algo_method_by_string, method_str=bbs04
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [int GroupSigApi::group_sig(std::__cxx11::string&, const string&, const string&, const string&, const string&, const string&)] [./algorithm/GroupSig.cpp:97] PARAM is:{
+    "g1": "0e7310f513c02a5b251dc246b676bf3001a82a73145bb282d68088147abcdd56",
+    "g2": "19f6d4139baf838eac66461780f049151f7436a1557374b5839899710f695d3d150ffe3c054f44f2c8e5907bf123fc70232985e80aac54856b6c52c3e5bf09c7",
+    "h": "20afd70bf019a70702faa8c9efb1257a025bce78bed5f0d8b220a9b072dde864",
+    "pr_g1_g2": "0de5f21ab45df1e81e233599b4177be50847f2cc17759e92aeae4fce13e55a2b1b80cce67403801471e91637ce0247fc1ad94ba6812ca24b071934a47cb9cae707ecd8312b6460ab946dc59fa83ee70920b9bd1e3c8dcc1b511c3add86e97110082e3ddf127f1c91b9b75a2b747bc8c10066f3ad76e13f180c55f954a3c341f001ffd9bbaabf2de452f490b01766912416cf232a810ef96fa58500e88e3e07e71c30d9775c382c79f36d7fb4cb2e388b03927cce65c3f4fc756cdcaeba7f75af",
+    "pr_g1_g2_inv": "0de5f21ab45df1e81e233599b4177be50847f2cc17759e92aeae4fce13e55a2b087f33a7dbfd52e3cea1ea34d455e4970926b4e7ced430ad3971cbc8259e61ac07ecd8312b6460ab946dc59fa83ee70920b9bd1e3c8dcc1b511c3add86e971101bd1c2af3d81b66686d3a6412ddc63d223990ce0d91f93e034350717fe94eaa301ffd9bbaabf2de452f490b01766912416cf232a810ef96fa58500e88e3e07e707cf2716f3c8a67e4d1d80b7d729f408206d83bfea3cddfbcb1e23bde7d8b6e4",
+    "pr_h_g2": "00cb8ead43f50b6b35a67441e20a648d0c896447624432d20b5519cdadbd0c410d588d43245d9ce60f5b8cfe8fc35f4f03fd038e75712ac5f02228f20d2573c8163946c37532bb90871dedff16ab3bb004d9a4f1f55c5b306e376e7d2c6e8bda0015146511a4194507110d5809ba07bd1b39bf38454d9cde5da9654e73b7f62a1c06c8a889083965e5cb3a1faf3515d3213a3febd3b518a0962c738f597818651768ad8c401b658d7dea08ff7aa2d21d23fdee767108afb6adceec9214e30c85",
+    "pr_h_w": "013833dda29489deac84ba2fabe199380b3197bba7ae5774742a3fd3b83266b717c1667fb0291708b0b35151df9bd9740a78fcfc71d7afc91d1a8a6ca56382b2168929eb7939ac359d9b344ede78680e0ad5cd61a396e8f70216f08549a8aa292235e7ba68bdeb472afd8251a0b79e950433bc8457e228ab7a7bd274fef0d0e415b5f617f18b76e448a136c28eb97b9d0806f4aa8e3f20a5a70b365c23d8ea05158166fd6b846e348acbc0d9b9274ce201997cfd3898b864579a3dc02419be27",
+    "u": "06b041a93b68092364df046f42218956143cf5eace73bc401049727ba568b543",
+    "v": "217e703e147d4444159f1d32f20b62b91c6ba1cda66db9b957bfa6108767d39c",
+    "w": "0be6c82fd41dc55fb81ef0ab49b835c11787c533693e26567ef257ff00238b111a229ae2d8059a7efc9a92b3922916c5157f4ed19a2bfbeedc2dd23ed952848b"
+}
+*{
+    "A": "02578e6ca81904bee2b303537adb567008674c3fbbc8ed971808bebaf4ea594a",
+    "pr_A_g2": "0424cbe454f7cb6a63e1125052c291d71fbdebdbf657f5e5f78da60c93bfa366045ecc513c84028bac9244e50deb303f075003c909807d46107c32d30e6522bb04020934b91292405dcca8cca797d60f088bd5c0b24e9396b4754af6d7b4866001481159fce69f24a5b9bfcf028e21a8017ce45e7e4b633147e68d4183b765431a0b7bf41ba6987a29f4400fe26b70c41c2f80e48973cbdf17ac655481c426100d5093746e7fa2a04601cc98dfc526790850e9c73daa5a4f34505f808c76bcc0",
+    "x": "1c9b9b93ea546be6acb0782735100c56"
+}
+*type f
+q 47852219123415845512185342363549838483
+r 47852219123415845505267812524159913869
+b 43495262912999556145801909880582979384
+beta 7134235663167365079836846819998482418
+alpha0 47650714208951339902234078022162801331
+alpha1 23489113419141195556040256831386248076
+*/NDN-IP/FILE_INFO/127.0.0.1/9758/dagada-720-02.mp4
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [static std::shared_ptr<dev::eth::GroupSigInterface> dev::eth::GroupSigFactory::instance(dev::eth::GroupSigMethod)] [./algorithm/GroupSigFactory.h:44] BBS04 METHOD
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [bool dev::eth::create_directory(std::__cxx11::string&)] [./devcore/CommonFunc.h:293] CREATE DIR=/home/misiyu/code/ndnip_proxy/data SUCCEED
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [static std::shared_ptr<dev::eth::LinearPair> dev::eth::LinearPairFactory::create(std::shared_ptr<dev::eth::ConfigParserInterface<dev::eth::JsonConfigParser> >&, std::__cxx11::string)] [./algorithm/LinearPair.h:353] LINEAR TYPE IS:
+2019-06-19 19:40:52,579 WARNING [default] type has not been set, used A_LINEAR as DEFAULT
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [dev::eth::ALinearPair::ALinearPair(std::shared_ptr<dev::eth::ConfigParserInterface<dev::eth::JsonConfigParser> >&, std::__cxx11::string, std::__cxx11::string)] [./algorithm/LinearPair.h:124] ALinearPair, q_bits=512 r_bits=512
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::group_sig(std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string)] [./algorithm/bbs04/GroupSig_BBS.cpp:551] Generate Group Sig...
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::init_sig_param(bbs_sys_param_ptr, pairing_ptr, const string&, std::__cxx11::string&)] [./algorithm/bbs04/GroupSig_BBS.cpp:255] begin init_sig_param
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::init_sig_param(bbs_sys_param_ptr, pairing_ptr, const string&, std::__cxx11::string&)] [./algorithm/bbs04/GroupSig_BBS.cpp:258] sys_param has been inited
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::init_sig_param(bbs_sys_param_ptr, pairing_ptr, const string&, std::__cxx11::string&)] [./algorithm/bbs04/GroupSig_BBS.cpp:269] load pbc param from type f
+q 47852219123415845512185342363549838483
+r 47852219123415845505267812524159913869
+b 43495262912999556145801909880582979384
+beta 7134235663167365079836846819998482418
+alpha0 47650714208951339902234078022162801331
+alpha1 23489113419141195556040256831386248076
+
+2019-06-19 19:40:52,579 DEBUG [default] [misiyu@unknown-host] [virtual pbc_param_s* dev::eth::LinearPair::load_pbc_param(std::__cxx11::string&, int&)] [./algorithm/LinearPair.h:74] LOAD PBC PARAM STR: type f
+q 47852219123415845512185342363549838483
+r 47852219123415845505267812524159913869
+b 43495262912999556145801909880582979384
+beta 7134235663167365079836846819998482418
+alpha0 47650714208951339902234078022162801331
+alpha1 23489113419141195556040256831386248076
+ to pbc param
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::init_sys_param(bbs_sys_param_ptr, pairing_ptr)] [./algorithm/bbs04/GroupSig_BBS.h:179] INIT SYS PARAM
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::group_sig(std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string)] [./algorithm/bbs04/GroupSig_BBS.cpp:560] RECOVER GSK THROUGH GSK_DEBUG:{
+    "A": "02578e6ca81904bee2b303537adb567008674c3fbbc8ed971808bebaf4ea594a",
+    "pr_A_g2": "0424cbe454f7cb6a63e1125052c291d71fbdebdbf657f5e5f78da60c93bfa366045ecc513c84028bac9244e50deb303f075003c909807d46107c32d30e6522bb04020934b91292405dcca8cca797d60f088bd5c0b24e9396b4754af6d7b4866001481159fce69f24a5b9bfcf028e21a8017ce45e7e4b633147e68d4183b765431a0b7bf41ba6987a29f4400fe26b70c41c2f80e48973cbdf17ac655481c426100d5093746e7fa2a04601cc98dfc526790850e9c73daa5a4f34505f808c76bcc0",
+    "x": "1c9b9b93ea546be6acb0782735100c56"
+}
+
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [static int dev::eth::BBSKey::load_gsk(bbs_group_private_key_ptr, const string&, bbs_sys_param_ptr)] [./algorithm/KeyLoaderDumper.cpp:192] LOAD GSK: (02578e6ca81904bee2b303537adb567008674c3fbbc8ed971808bebaf4ea594a,1c9b9b93ea546be6acb0782735100c56
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 02578e6ca81904bee2b303537adb567008674c3fbbc8ed971808bebaf4ea594a to bignum
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 1c9b9b93ea546be6acb0782735100c56 to bignum
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 0424cbe454f7cb6a63e1125052c291d71fbdebdbf657f5e5f78da60c93bfa366045ecc513c84028bac9244e50deb303f075003c909807d46107c32d30e6522bb04020934b91292405dcca8cca797d60f088bd5c0b24e9396b4754af6d7b4866001481159fce69f24a5b9bfcf028e21a8017ce45e7e4b633147e68d4183b765431a0b7bf41ba6987a29f4400fe26b70c41c2f80e48973cbdf17ac655481c426100d5093746e7fa2a04601cc98dfc526790850e9c73daa5a4f34505f808c76bcc0 to bignum
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::group_sig(std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string)] [./algorithm/bbs04/GroupSig_BBS.cpp:566] RECOVER GPK THROUGH GPK_DEBUG:{
+    "g1": "0e7310f513c02a5b251dc246b676bf3001a82a73145bb282d68088147abcdd56",
+    "g2": "19f6d4139baf838eac66461780f049151f7436a1557374b5839899710f695d3d150ffe3c054f44f2c8e5907bf123fc70232985e80aac54856b6c52c3e5bf09c7",
+    "h": "20afd70bf019a70702faa8c9efb1257a025bce78bed5f0d8b220a9b072dde864",
+    "pr_g1_g2": "0de5f21ab45df1e81e233599b4177be50847f2cc17759e92aeae4fce13e55a2b1b80cce67403801471e91637ce0247fc1ad94ba6812ca24b071934a47cb9cae707ecd8312b6460ab946dc59fa83ee70920b9bd1e3c8dcc1b511c3add86e97110082e3ddf127f1c91b9b75a2b747bc8c10066f3ad76e13f180c55f954a3c341f001ffd9bbaabf2de452f490b01766912416cf232a810ef96fa58500e88e3e07e71c30d9775c382c79f36d7fb4cb2e388b03927cce65c3f4fc756cdcaeba7f75af",
+    "pr_g1_g2_inv": "0de5f21ab45df1e81e233599b4177be50847f2cc17759e92aeae4fce13e55a2b087f33a7dbfd52e3cea1ea34d455e4970926b4e7ced430ad3971cbc8259e61ac07ecd8312b6460ab946dc59fa83ee70920b9bd1e3c8dcc1b511c3add86e971101bd1c2af3d81b66686d3a6412ddc63d223990ce0d91f93e034350717fe94eaa301ffd9bbaabf2de452f490b01766912416cf232a810ef96fa58500e88e3e07e707cf2716f3c8a67e4d1d80b7d729f408206d83bfea3cddfbcb1e23bde7d8b6e4",
+    "pr_h_g2": "00cb8ead43f50b6b35a67441e20a648d0c896447624432d20b5519cdadbd0c410d588d43245d9ce60f5b8cfe8fc35f4f03fd038e75712ac5f02228f20d2573c8163946c37532bb90871dedff16ab3bb004d9a4f1f55c5b306e376e7d2c6e8bda0015146511a4194507110d5809ba07bd1b39bf38454d9cde5da9654e73b7f62a1c06c8a889083965e5cb3a1faf3515d3213a3febd3b518a0962c738f597818651768ad8c401b658d7dea08ff7aa2d21d23fdee767108afb6adceec9214e30c85",
+    "pr_h_w": "013833dda29489deac84ba2fabe199380b3197bba7ae5774742a3fd3b83266b717c1667fb0291708b0b35151df9bd9740a78fcfc71d7afc91d1a8a6ca56382b2168929eb7939ac359d9b344ede78680e0ad5cd61a396e8f70216f08549a8aa292235e7ba68bdeb472afd8251a0b79e950433bc8457e228ab7a7bd274fef0d0e415b5f617f18b76e448a136c28eb97b9d0806f4aa8e3f20a5a70b365c23d8ea05158166fd6b846e348acbc0d9b9274ce201997cfd3898b864579a3dc02419be27",
+    "u": "06b041a93b68092364df046f42218956143cf5eace73bc401049727ba568b543",
+    "v": "217e703e147d4444159f1d32f20b62b91c6ba1cda66db9b957bfa6108767d39c",
+    "w": "0be6c82fd41dc55fb81ef0ab49b835c11787c533693e26567ef257ff00238b111a229ae2d8059a7efc9a92b3922916c5157f4ed19a2bfbeedc2dd23ed952848b"
+}
+
+2019-06-19 19:40:52,616 DEBUG [default] [misiyu@unknown-host] [static int dev::eth::BBSKey::load_gpk(bbs_group_public_key_ptr, const string&, bbs_sys_param_ptr)] [./algorithm/KeyLoaderDumper.cpp:36] INIT GPK FIRST
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [static int dev::eth::BBSKey::load_gpk(bbs_group_public_key_ptr, const string&, bbs_sys_param_ptr)] [./algorithm/KeyLoaderDumper.cpp:39] GPK DEBUG, g1=0e7310f513c02a5b251dc246b676bf3001a82a73145bb282d68088147abcdd56 g2=19f6d4139baf838eac66461780f049151f7436a1557374b5839899710f695d3d150ffe3c054f44f2c8e5907bf123fc70232985e80aac54856b6c52c3e5bf09c7
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 0e7310f513c02a5b251dc246b676bf3001a82a73145bb282d68088147abcdd56 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 19f6d4139baf838eac66461780f049151f7436a1557374b5839899710f695d3d150ffe3c054f44f2c8e5907bf123fc70232985e80aac54856b6c52c3e5bf09c7 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 20afd70bf019a70702faa8c9efb1257a025bce78bed5f0d8b220a9b072dde864 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 06b041a93b68092364df046f42218956143cf5eace73bc401049727ba568b543 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 217e703e147d4444159f1d32f20b62b91c6ba1cda66db9b957bfa6108767d39c to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 0be6c82fd41dc55fb81ef0ab49b835c11787c533693e26567ef257ff00238b111a229ae2d8059a7efc9a92b3922916c5157f4ed19a2bfbeedc2dd23ed952848b to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 0de5f21ab45df1e81e233599b4177be50847f2cc17759e92aeae4fce13e55a2b1b80cce67403801471e91637ce0247fc1ad94ba6812ca24b071934a47cb9cae707ecd8312b6460ab946dc59fa83ee70920b9bd1e3c8dcc1b511c3add86e97110082e3ddf127f1c91b9b75a2b747bc8c10066f3ad76e13f180c55f954a3c341f001ffd9bbaabf2de452f490b01766912416cf232a810ef96fa58500e88e3e07e71c30d9775c382c79f36d7fb4cb2e388b03927cce65c3f4fc756cdcaeba7f75af to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 00cb8ead43f50b6b35a67441e20a648d0c896447624432d20b5519cdadbd0c410d588d43245d9ce60f5b8cfe8fc35f4f03fd038e75712ac5f02228f20d2573c8163946c37532bb90871dedff16ab3bb004d9a4f1f55c5b306e376e7d2c6e8bda0015146511a4194507110d5809ba07bd1b39bf38454d9cde5da9654e73b7f62a1c06c8a889083965e5cb3a1faf3515d3213a3febd3b518a0962c738f597818651768ad8c401b658d7dea08ff7aa2d21d23fdee767108afb6adceec9214e30c85 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 013833dda29489deac84ba2fabe199380b3197bba7ae5774742a3fd3b83266b717c1667fb0291708b0b35151df9bd9740a78fcfc71d7afc91d1a8a6ca56382b2168929eb7939ac359d9b344ede78680e0ad5cd61a396e8f70216f08549a8aa292235e7ba68bdeb472afd8251a0b79e950433bc8457e228ab7a7bd274fef0d0e415b5f617f18b76e448a136c28eb97b9d0806f4aa8e3f20a5a70b365c23d8ea05158166fd6b846e348acbc0d9b9274ce201997cfd3898b864579a3dc02419be27 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [void dev::eth::trans_string_to_element(element_ptr, const string&)] [./devcore/CommonFunc.h:266] trans 0de5f21ab45df1e81e233599b4177be50847f2cc17759e92aeae4fce13e55a2b087f33a7dbfd52e3cea1ea34d455e4970926b4e7ced430ad3971cbc8259e61ac07ecd8312b6460ab946dc59fa83ee70920b9bd1e3c8dcc1b511c3add86e971101bd1c2af3d81b66686d3a6412ddc63d223990ce0d91f93e034350717fe94eaa301ffd9bbaabf2de452f490b01766912416cf232a810ef96fa58500e88e3e07e707cf2716f3c8a67e4d1d80b7d729f408206d83bfea3cddfbcb1e23bde7d8b6e4 to bignum
+2019-06-19 19:40:52,618 DEBUG [default] [misiyu@unknown-host] [int dev::eth::BBSGroupSig::group_sig(std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string&, std::__cxx11::string)] [./algorithm/bbs04/GroupSig_BBS.cpp:572] GEN SIGNATURE FOR MESSAGE: /NDN-IP/FILE_INFO/127.0.0.1/9758/dagada-720-02.mp4
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_group_sig(std::__cxx11::string&, int, const char*, bbs_group_public_key_ptr, bbs_group_private_key_ptr)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:129] INNER M VERIFY:/NDN-IP/FILE_INFO/127.0.0.1/9758/dagada-720-02.mp4
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_group_sig(std::__cxx11::string&, int, const char*, bbs_group_public_key_ptr, bbs_group_private_key_ptr)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:134] ######HASH OF SIG
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:52] ###T1:188e20a1276e98c83cd4b69c36bd2dd717a4b044a1a5be6ee6b9cc90ba55c3af
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:53] ###T2:01943cc5abdd3e9809aeb42bbf9b91ae1cd5d0fdc4a0821acc1d605da8ac7fe0
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:54] ###T3:0b5a5541265e04306208afe548b62f9f095e899e1c402aa905c51abac28e2beb
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:55] ###R1:1ef293ac782d3551c6e5c8d3ae9d2614159543e1f8fb200164913862aca52b3d
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:56] ###R2:2011e71650b0a7b16607411d76b6f4910e5aa4f9dac1d6a6df51d92f3c4d0104
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:57] ###R3:106493d9d330f3c4d83c7f5cd24ee9c71eedcd747812afae91c4e6a6c25ee33b0f84777f0074539f61d2abcf5822d2d204183599d3400bb340c6a835a79327bb0b809a32242272302beb9581cd0f638609497a18bf2869320b0986e1633d4f7c0eae2a9d23ab88e0da8709bc6bb5fb1b0b44a30e95aa70d45929a49ecc6cf1eb23401c758be2a910ad4dc42bd31663421e6a3d896bb6d91f1213e4b371f38d0f0041fc71502a53a68a7ce8b51a6d7a682281dbb60f82e8ab098fb6f1d1912219
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:58] ###R4:1d5376ba5e3cbc753b56d167183cb9d61c7c97d6a38d57e6d353265eb73a0b3b
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:59] ###R5:0a892fbd9a2d4f475fbfdbd4fe94de6f0f6ed001e562b2ac66be2a4111b856e1
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static void dev::eth::BBS04SignatureImpl::bbs_cal_sha3(element_s (&)[1], dev::eth::BBS04Signature&, element_ptr, unsigned int)] [./algorithm/bbs04/GroupSig_BBS_Impl.cpp:67] C#####:1bb4d32d89a22b5d15a5be8c5fa8480f
+2019-06-19 19:40:52,633 DEBUG [default] [misiyu@unknown-host] [static int dev::eth::BBSKey::store_sig(std::__cxx11::string&, dev::eth::BBS04Signature&)] [./algorithm/KeyLoaderDumper.cpp:221] SIG RESULT:{
+    "T1": "188e20a1276e98c83cd4b69c36bd2dd717a4b044a1a5be6ee6b9cc90ba55c3af",
+    "T2": "01943cc5abdd3e9809aeb42bbf9b91ae1cd5d0fdc4a0821acc1d605da8ac7fe0",
+    "T3": "0b5a5541265e04306208afe548b62f9f095e899e1c402aa905c51abac28e2beb",
+    "c": "1bb4d32d89a22b5d15a5be8c5fa8480f",
+    "ralpha": "0e8d8be6cea80fab3a211fa157e61bbd",
+    "rbeta": "04d98a2d9f7ed5bb5e6dec16b4b15af2",
+    "rdelta1": "0cae5889cce27d838e4edf3a42c928c1",
+    "rdelta2": "22ac1f211a8dc13e3720e95047df300a",
+    "rx": "15ef9a7292f116db3e33576cbd9b687b"
+}
+
+2019-06-19 19:40:52,634 DEBUG [default] [misiyu@unknown-host] [virtual int dev::eth::BBSGroupSig::group_sig(std::__cxx11::string&, const string&)] [./algorithm/bbs04/GroupSig_BBS.cpp:118] GROUP SIG RESULT:{
+    "T1": "188e20a1276e98c83cd4b69c36bd2dd717a4b044a1a5be6ee6b9cc90ba55c3af",
+    "T2": "01943cc5abdd3e9809aeb42bbf9b91ae1cd5d0fdc4a0821acc1d605da8ac7fe0",
+    "T3": "0b5a5541265e04306208afe548b62f9f095e899e1c402aa905c51abac28e2beb",
+    "c": "1bb4d32d89a22b5d15a5be8c5fa8480f",
+    "ralpha": "0e8d8be6cea80fab3a211fa157e61bbd",
+    "rbeta": "04d98a2d9f7ed5bb5e6dec16b4b15af2",
+    "rdelta1": "0cae5889cce27d838e4edf3a42c928c1",
+    "rdelta2": "22ac1f211a8dc13e3720e95047df300a",
+    "rx": "15ef9a7292f116db3e33576cbd9b687b"
+}
+
+2019-06-19 19:40:52,634 TRACE [default] [int GroupSigApi::group_sig(std::__cxx11::string&, const string&, const string&, const string&, const string&, const string&)] [./algorithm/GroupSig.cpp:102] group sig time:0.054869 s
+=======================================================
+pkusz
+/NDN-IP/FILE_INFO/127.0.0.1/9758/dagada-720-02.mp4
+{
+    "T1": "188e20a1276e98c83cd4b69c36bd2dd717a4b044a1a5be6ee6b9cc90ba55c3af",
+    "T2": "01943cc5abdd3e9809aeb42bbf9b91ae1cd5d0fdc4a0821acc1d605da8ac7fe0",
+    "T3": "0b5a5541265e04306208afe548b62f9f095e899e1c402aa905c51abac28e2beb",
+    "c": "1bb4d32d89a22b5d15a5be8c5fa8480f",
+    "ralpha": "0e8d8be6cea80fab3a211fa157e61bbd",
+    "rbeta": "04d98a2d9f7ed5bb5e6dec16b4b15af2",
+    "rdelta1": "0cae5889cce27d838e4edf3a42c928c1",
+    "rdelta2": "22ac1f211a8dc13e3720e95047df300a",
+    "rx": "15ef9a7292f116db3e33576cbd9b687b"
+}
+
+sig 
+=======================================================
+4
